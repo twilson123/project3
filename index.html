@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Bookstore</title>
+</head>
+
+<style>
+    body {
+        background-image: url('../img/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+
+<body>
+
+    <h1>Welcome to the bookstore</h1>
+    <button id="fetch-books" class="btn btn-primary">Fetch The Books</button>
+    <div id="book-data"></div>
+
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id1.jpg" class="card-img-top" alt="Things Fall Apart">
+                <div class="card-body">
+                    <h5 class="card-title">Things Fall Apart</h5>
+                    <p class="card-text">By: Chinua Achebe</p>
+                    <button id="fetch-id1" class="btn btn-primary">Enter</button>
+                    <div id="book-info"></div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id2.jpg" class="card-img-top" alt="Fairy tales">
+                <div class="card-body">
+                    <h5 class="card-title">Fairy tales</h5>
+                    <p class="card-text">By: Hans Christian Andersen</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id3.jpg" class="card-img-top" alt="The Divine Comedy">
+                <div class="card-body">
+                    <h5 class="card-title">The Divine Comedy</h5>
+                    <p class="card-text">By: Dante Alighieri</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id4.jpg" class="card-img-top" alt="Homer">
+                <div class="card-body">
+                    <h5 class="card-title">Iliad</h5>
+                    <p class="card-text">By: Homer</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id5.jpg" class="card-img-top" alt="Moby Dick">
+                <div class="card-body">
+                    <h5 class="card-title">Moby Dick</h5>
+                    <p class="card-text">By: Herman Melville</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id6.jpg" class="card-img-top" alt="Catcher in the Rye">
+                <div class="card-body">
+                    <h5 class="card-title">Catcher in the Rye</h5>
+                    <p class="card-text">By: JD Salinger</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img_id7.jpg" class="card-img-top" alt="L'Étranger(The Stranger)">
+                <div class="card-body">
+                    <h5 class="card-title">L'Étranger (The Stranger)</h5>
+                    <p class="card-text">By: Albert Camus</p>
+                    <a href="#" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
